@@ -1,7 +1,6 @@
 import React from 'react'
 import posts from './../data/posts'
 import { NavLink } from 'react-router-dom'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 const Blog = () => {
   console.log(posts)
