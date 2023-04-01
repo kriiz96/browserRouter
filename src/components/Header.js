@@ -6,6 +6,7 @@ const Header = () => {
   return (
     <ContenedorHeader>
       <Titulo>Blog de Deportes</Titulo>
+      <p>El término deporte es una actividad física, básicamente de carácter competitivo y que mejora la condición física del individuo que lo practica, de igual forma cuenta con una serie de propiedades que lo hacen diferenciarse del juego.</p>
       <Menu>
         <NavLink to="/">Inicio</NavLink>
         <NavLink to="/blog">Blog</NavLink>
