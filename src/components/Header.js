@@ -24,23 +24,27 @@ margin-top: 40px;
 const Titulo = styled.h1`
 font-size: 26px;
 margin-bottom: 20px;
-text-transform:uppercase;
+text-transform: uppercase;
 color: #FF0000;
 `
 
 const Menu = styled.nav`
 a{
-    text-decoration: none;
-    color: #165168;
-    margin: 0 10px;
+  display: inline-block;
+  background-color: #199319;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  margin: 0 20px;
+  border-radius: 10px;
 }
 a:hover{
-    color: #165168;
     background-color: yellow;
 }
 a:active{
     border-bottom: 2px solid #165168;
     padding-bottom: 5px;
+    transition: all 0.3s ease;
 }
 `
 
